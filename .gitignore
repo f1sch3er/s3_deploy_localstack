@@ -1,0 +1,52 @@
+## .NET / C# #########################################################
+# Diretórios de compilação (Binários)
+[Bb]in/
+[Oo]bj/
+
+# Arquivos gerados pelo MSBuild
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache do NuGet e pacotes instalados
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+packages/
+
+# Arquivos de log e telemetria
+*.log
+*.binlog
+
+## Visual Studio Code ################################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Histórico local do VS Code
+.history/
+
+## Publicação e Artifacts ############################################
+publish/
+dist/
+out/
+
+## Segredos e Configurações Sensíveis ################################
+# (NUNCA envie segredos para o repositório)
+appsettings.Development.json
+appsettings.Local.json
+*.usersecrets
+.env
+
+## OS (Sistema Operacional) ##########################################
+.DS_Store
+Thumbs.db
+
+## Testes e Cobertura ################################################
+TestResults/
+*.sequenced
