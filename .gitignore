@@ -15,6 +15,7 @@
 project.lock.json
 project.fragment.lock.json
 packages/
+appsettings.json
 
 # Arquivos de log e telemetria
 *.log
